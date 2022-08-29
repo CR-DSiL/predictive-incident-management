@@ -1,0 +1,6 @@
+# remove any existing files from the repo, skipping over ones not in repo
+find . -name .DS_Store -print0 | xargs -0 git rm --ignore-unmatch
+# specify a global exclusion list
+git config --global core.excludesfile ~/.gitignore
+# adding .DS_Store to that list
+echo .DS_Store >> ~/.gitignore
