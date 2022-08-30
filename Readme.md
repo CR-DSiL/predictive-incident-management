@@ -1,12 +1,12 @@
 # AI/ML Enabled IT Operations
 
-# Introduction:
+## Introduction:
 
 Enterprise systems span across on-prem and cloud without any data logging standards to analyse data patterns related to IT incidents. AI/ML enabled IT Operations addresses this HUGE issue leveraging Machine Learning algorithms to predict hidden behavioural patterns in the vast amount of log file dataset (across all the platforms, e.g., Snowflake, ITSM Logs, Oracle data on-prem, etc.).
 
 AI enabled IT operations detect the abnormal (anomalous) system behaviour before it impacts services.
 
-# Business challenges:
+## Business challenges:
 
 **Dynamic IT environment:** The IT environments can automatically scale up or down using technologies like orchestration of containers as per the demand. Manual analysis of such environment is really challenging.
 
@@ -22,7 +22,7 @@ AI enabled IT operations detect the abnormal (anomalous) system behaviour before
 
 **No data logging standard:** Since no logging standards are used for creating & storing logs, it becomes difficult to analyze & infer from these logs.
 
-# Steps followed for solutioning
+## Steps followed for solutioning
 
 1.  Data source (columns) identification and data cleansing (remove data duplication, private data, etc.,).
 2.  Hidden data patterns analysis - identifying respective learning algorithm (Supervised or Unsupervised learning based on limited incident type data availability in the datasets.
@@ -35,7 +35,7 @@ AI enabled IT operations detect the abnormal (anomalous) system behaviour before
 6.  Based on sub categorization map these incidents against actual business impacts.
 7.  Determine the return on investment against categorized impacted incident.
 
-# Process Flow
+## Process Flow
 
 ![Diagram Description automatically generated](media/0a0efef6446f7f0a444685aec3138013.png)
 
@@ -73,11 +73,11 @@ The process flow steps described below:
     -   Insightful actionable dashboards are presented for taking business decisions.
     -   These dashboards are customizable based on client requests.
 
-# Outcomes
+## Outcomes
 
 **Functional Process flow**. ![](media/65eef8db49a51b3116938d82d4e78dce.png)
 
-# Benefits:
+## Benefits:
 
 -   Reactive to proactive incident management approach
 -   Reduction of post deployment incidents, by identifying the potential problem during initial stages of change request.
