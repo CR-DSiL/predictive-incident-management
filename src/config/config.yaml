@@ -1,0 +1,30 @@
+#INITIAL SETTINGS
+models_dir: models
+data_dir : data
+
+cr_stop_words_file: cr_stopwords.pkl
+cr_incident_type_features_names: cr_incident_type_features_names.pkl
+cr_incident_prediction_model: cr_incident_prediction_model.pkl
+cr_impact_dict : {'3 - Medium':3,'2 - High':2,'1 - Major:1'}
+cr_subgroups_features_names: cr_subgroups_features_names.pkl
+cr_incident_types_dict : {'Capacity Incidents':1,'Network Incidents':2,'Cloud Maintenance Incidents':3}
+cr_capcity_subgroup_prediction_model: cr_subgroup_incident_1.pkl
+cr_network_subgroup_prediction_model: cr_subgroup_incident_2.pkl
+cr_cloud_subgroup_prediction_model: cr_subgroup_incident_3.pkl
+cr_dataset_file: merged_v2.csv 
+
+similar_incident_count: 5
+
+Other_subgroup_features_names : Other_subgroup_features_name.pkl
+other_subgroup_prediction_model: 'other_subgroup_model_name.pkl'
+
+resolution_time_lookup_file : 'average_resolution_time_hour.csv'
+
+
+env_incident_prediction_model : 'env_incident_model.pkl'
+env_subgroup_prediction_model: 'Subgroup_IPOP_DecisionTree_MODEL.pkl'
+env_subgroups_features_names :  'env_subgroup_features_name.pkl'
+
+login_file: login.txt
+# Recivers email
+receiver_email: 'nishikant.surwade@criticalriver.com'

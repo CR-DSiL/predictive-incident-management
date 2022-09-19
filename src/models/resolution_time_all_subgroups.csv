@@ -1,0 +1,353 @@
+Incident_types,Subgroups,Impacts,Average_Resolution_Time_Hour
+Capacity Incident,Access Issues,3 - Medium,298.97266666666667
+Capacity Incident,Access Issues,4 - Low,
+Capacity Incident,Access Issues,2 - High,6.753240740740741
+Capacity Incident,Access Issues,1 - Major,
+Capacity Incident,amex,3 - Medium,3.5710778289810547
+Capacity Incident,amex,4 - Low,
+Capacity Incident,amex,2 - High,11.150551001821494
+Capacity Incident,amex,1 - Major,
+Capacity Incident,AUApplication,3 - Medium,
+Capacity Incident,AUApplication,4 - Low,
+Capacity Incident,AUApplication,2 - High,
+Capacity Incident,AUApplication,1 - Major,
+Capacity Incident,AWTM Service,3 - Medium,356.373373015873
+Capacity Incident,AWTM Service,4 - Low,
+Capacity Incident,AWTM Service,2 - High,
+Capacity Incident,AWTM Service,1 - Major,
+Capacity Incident,Backup,3 - Medium,20.648361111111114
+Capacity Incident,Backup,4 - Low,
+Capacity Incident,Backup,2 - High,
+Capacity Incident,Backup,1 - Major,
+Capacity Incident,BMC Issues,3 - Medium,68.01083333333334
+Capacity Incident,BMC Issues,4 - Low,
+Capacity Incident,BMC Issues,2 - High,
+Capacity Incident,BMC Issues,1 - Major,
+Capacity Incident,DatamartMetrics,3 - Medium,8.755573127872399
+Capacity Incident,DatamartMetrics,4 - Low,92.03805555555556
+Capacity Incident,DatamartMetrics,2 - High,3.0392579365079366
+Capacity Incident,DatamartMetrics,1 - Major,
+Capacity Incident,EDW Server,3 - Medium,6.592597809076683
+Capacity Incident,EDW Server,4 - Low,24.412916666666668
+Capacity Incident,EDW Server,2 - High,2.205
+Capacity Incident,EDW Server,1 - Major,
+Capacity Incident,fhl,3 - Medium,8.21381969514641
+Capacity Incident,fhl,4 - Low,
+Capacity Incident,fhl,2 - High,3.0875
+Capacity Incident,fhl,1 - Major,
+Capacity Incident,FHL Service,3 - Medium,7.052881944444445
+Capacity Incident,FHL Service,4 - Low,
+Capacity Incident,FHL Service,2 - High,
+Capacity Incident,FHL Service,1 - Major,
+Capacity Incident,MKHS Service,3 - Medium,26.27148148148148
+Capacity Incident,MKHS Service,4 - Low,
+Capacity Incident,MKHS Service,2 - High,
+Capacity Incident,MKHS Service,1 - Major,
+Capacity Incident,MKHSP Server,3 - Medium,12.207620614035086
+Capacity Incident,MKHSP Server,4 - Low,
+Capacity Incident,MKHSP Server,2 - High,0.6882777777777779
+Capacity Incident,MKHSP Server,1 - Major,
+Capacity Incident,MKTM Service,3 - Medium,10.573359788359788
+Capacity Incident,MKTM Service,4 - Low,
+Capacity Incident,MKTM Service,2 - High,4.2027777777777775
+Capacity Incident,MKTM Service,1 - Major,
+Capacity Incident,OIPA,3 - Medium,
+Capacity Incident,OIPA,4 - Low,
+Capacity Incident,OIPA,2 - High,
+Capacity Incident,OIPA,1 - Major,
+Capacity Incident,Quest Change Auditor Agent,3 - Medium,3.2192323573573574
+Capacity Incident,Quest Change Auditor Agent,4 - Low,1.4661111111111111
+Capacity Incident,Quest Change Auditor Agent,2 - High,1.199173789173789
+Capacity Incident,Quest Change Auditor Agent,1 - Major,
+Capacity Incident,Report Issues,3 - Medium,23.04083333333333
+Capacity Incident,Report Issues,4 - Low,
+Capacity Incident,Report Issues,2 - High,
+Capacity Incident,Report Issues,1 - Major,
+Capacity Incident,Rubrik Backup Service,3 - Medium,12.854189435336977
+Capacity Incident,Rubrik Backup Service,4 - Low,92.95657407407408
+Capacity Incident,Rubrik Backup Service,2 - High,4.050902777777778
+Capacity Incident,Rubrik Backup Service,1 - Major,
+Capacity Incident,Server Access Issue,3 - Medium,39.464814814814815
+Capacity Incident,Server Access Issue,4 - Low,3.0183333333333335
+Capacity Incident,Server Access Issue,2 - High,1.074074074074074
+Capacity Incident,Server Access Issue,1 - Major,
+Capacity Incident,Snow Inventory Agent,3 - Medium,13.394365079365079
+Capacity Incident,Snow Inventory Agent,4 - Low,
+Capacity Incident,Snow Inventory Agent,2 - High,0.11277777777777778
+Capacity Incident,Snow Inventory Agent,1 - Major,
+Capacity Incident,Snow Inventory Application,3 - Medium,9.99125408496732
+Capacity Incident,Snow Inventory Application,4 - Low,14.436111111111112
+Capacity Incident,Snow Inventory Application,2 - High,15.420567558299041
+Capacity Incident,Snow Inventory Application,1 - Major,
+Capacity Incident,SQL Physical memory utilization,3 - Medium,1.701111111111111
+Capacity Incident,SQL Physical memory utilization,4 - Low,
+Capacity Incident,SQL Physical memory utilization,2 - High,3.031001984126984
+Capacity Incident,SQL Physical memory utilization,1 - Major,
+Capacity Incident,SQLSafe OLR Service,3 - Medium,15.382715201465203
+Capacity Incident,SQLSafe OLR Service,4 - Low,104.62555555555555
+Capacity Incident,SQLSafe OLR Service,2 - High,1.368672839506173
+Capacity Incident,SQLSafe OLR Service,1 - Major,
+Capacity Incident,SSIS,3 - Medium,29.999166666666667
+Capacity Incident,SSIS,4 - Low,
+Capacity Incident,SSIS,2 - High,
+Capacity Incident,SSIS,1 - Major,
+Capacity Incident,Token Issues,3 - Medium,20.855
+Capacity Incident,Token Issues,4 - Low,
+Capacity Incident,Token Issues,2 - High,
+Capacity Incident,Token Issues,1 - Major,
+Capacity Incident,TorchMark,3 - Medium,3.988888888888889
+Capacity Incident,TorchMark,4 - Low,
+Capacity Incident,TorchMark,2 - High,
+Capacity Incident,TorchMark,1 - Major,
+Capacity Incident,unidentified,3 - Medium,27.478460497365525
+Capacity Incident,unidentified,4 - Low,55.68121584699453
+Capacity Incident,unidentified,2 - High,35.353531156504694
+Capacity Incident,unidentified,1 - Major,
+Capacity Incident,USOSVC Issues,3 - Medium,79.65027777777777
+Capacity Incident,USOSVC Issues,4 - Low,
+Capacity Incident,USOSVC Issues,2 - High,0.04356837606837607
+Capacity Incident,USOSVC Issues,1 - Major,
+Capacity Incident,Verodin Endpoint Service,3 - Medium,7.586875
+Capacity Incident,Verodin Endpoint Service,4 - Low,43.08157407407407
+Capacity Incident,Verodin Endpoint Service,2 - High,0.8344701646090535
+Capacity Incident,Verodin Endpoint Service,1 - Major,
+Capacity Incident,vm state,3 - Medium,
+Capacity Incident,vm state,4 - Low,
+Capacity Incident,vm state,2 - High,130.28694444444446
+Capacity Incident,vm state,1 - Major,
+Capacity Incident,VSphere VM Backup Failure,3 - Medium,
+Capacity Incident,VSphere VM Backup Failure,4 - Low,24.1875
+Capacity Incident,VSphere VM Backup Failure,2 - High,
+Capacity Incident,VSphere VM Backup Failure,1 - Major,
+Capacity Incident,Windows CPU WMI,3 - Medium,16.902799145299145
+Capacity Incident,Windows CPU WMI,4 - Low,
+Capacity Incident,Windows CPU WMI,2 - High,
+Capacity Incident,Windows CPU WMI,1 - Major,
+Capacity Incident,Windows Diskall WMI,3 - Medium,28.388936781609196
+Capacity Incident,Windows Diskall WMI,4 - Low,
+Capacity Incident,Windows Diskall WMI,2 - High,6.625050505050505
+Capacity Incident,Windows Diskall WMI,1 - Major,
+Capacity Incident,Windows Mem WMI,3 - Medium,3.5501944444444447
+Capacity Incident,Windows Mem WMI,4 - Low,
+Capacity Incident,Windows Mem WMI,2 - High,2.1775
+Capacity Incident,Windows Mem WMI,1 - Major,
+Capacity Incident,Windows Service WMI,3 - Medium,7.198823653198653
+Capacity Incident,Windows Service WMI,4 - Low,0.28805555555555556
+Capacity Incident,Windows Service WMI,2 - High,1.4858459595959597
+Capacity Incident,Windows Service WMI,1 - Major,
+Capacity Incident,Windows Uptime WMI,3 - Medium,4.9127777777777775
+Capacity Incident,Windows Uptime WMI,4 - Low,
+Capacity Incident,Windows Uptime WMI,2 - High,2.73375
+Capacity Incident,Windows Uptime WMI,1 - Major,
+Service Request Incident,ail,3 - Medium,326.9270043572985
+Service Request Incident,ail,4 - Low,61.47147286307788
+Service Request Incident,ail,2 - High,89.2237962962963
+Service Request Incident,ail,1 - Major,
+Service Request Incident,eapp,3 - Medium,1127.3455555555556
+Service Request Incident,eapp,4 - Low,52.48218009599673
+Service Request Incident,eapp,2 - High,
+Service Request Incident,eapp,1 - Major,
+Service Request Incident,gl,3 - Medium,148.21974074074075
+Service Request Incident,gl,4 - Low,59.22433097205824
+Service Request Incident,gl,2 - High,191.62472222222223
+Service Request Incident,gl,1 - Major,
+Service Request Incident,amex,3 - Medium,8.64247908496732
+Service Request Incident,amex,4 - Low,0.5580555555555555
+Service Request Incident,amex,2 - High,6.612240143369176
+Service Request Incident,amex,1 - Major,
+Service Request Incident,Backup,3 - Medium,43.85375233146816
+Service Request Incident,Backup,4 - Low,21.159555555555553
+Service Request Incident,Backup,2 - High,1.1322222222222222
+Service Request Incident,Backup,1 - Major,
+Service Request Incident,citrix,3 - Medium,141.0766255144033
+Service Request Incident,citrix,4 - Low,33.77367503156566
+Service Request Incident,citrix,2 - High,9.9525
+Service Request Incident,citrix,1 - Major,
+Service Request Incident,mid server,3 - Medium,23.947757817697937
+Service Request Incident,mid server,4 - Low,0.9061111111111111
+Service Request Incident,mid server,2 - High,
+Service Request Incident,mid server,1 - Major,
+Service Request Incident,mb notification,3 - Medium,99.58993298368298
+Service Request Incident,mb notification,4 - Low,
+Service Request Incident,mb notification,2 - High,56.46402777777778
+Service Request Incident,mb notification,1 - Major,
+Service Request Incident,jabber,3 - Medium,72.20177469135803
+Service Request Incident,jabber,4 - Low,36.841729066022545
+Service Request Incident,jabber,2 - High,
+Service Request Incident,jabber,1 - Major,
+Service Request Incident,finesse,3 - Medium,26.339791666666667
+Service Request Incident,finesse,4 - Low,74.51581233850129
+Service Request Incident,finesse,2 - High,
+Service Request Incident,finesse,1 - Major,
+Service Request Incident,hyper v,3 - Medium,21.76635780885781
+Service Request Incident,hyper v,4 - Low,
+Service Request Incident,hyper v,2 - High,27.50027777777778
+Service Request Incident,hyper v,1 - Major,
+Service Request Incident,fhl,3 - Medium,30.235263888888888
+Service Request Incident,fhl,4 - Low,154.33132530120483
+Service Request Incident,fhl,2 - High,10.05099074074074
+Service Request Incident,fhl,1 - Major,
+Service Request Incident,soc,3 - Medium,26.177777777777777
+Service Request Incident,soc,4 - Low,152.85877777777776
+Service Request Incident,soc,2 - High,57.988768939393935
+Service Request Incident,soc,1 - Major,
+Service Request Incident,metricstream,3 - Medium,610.6890170940171
+Service Request Incident,metricstream,4 - Low,373.79195726495726
+Service Request Incident,metricstream,2 - High,
+Service Request Incident,metricstream,1 - Major,
+Service Request Incident,cluster,3 - Medium,113.76944444444445
+Service Request Incident,cluster,4 - Low,171.0561111111111
+Service Request Incident,cluster,2 - High,114.91521953405018
+Service Request Incident,cluster,1 - Major,
+Service Request Incident,vm state,3 - Medium,
+Service Request Incident,vm state,4 - Low,
+Service Request Incident,vm state,2 - High,49.0569358974359
+Service Request Incident,vm state,1 - Major,
+Service Request Incident,srms,3 - Medium,808.4492777777778
+Service Request Incident,srms,4 - Low,
+Service Request Incident,srms,2 - High,
+Service Request Incident,srms,1 - Major,
+Service Request Incident,Physical disk,3 - Medium,184.96418560606062
+Service Request Incident,Physical disk,4 - Low,
+Service Request Incident,Physical disk,2 - High,
+Service Request Incident,Physical disk,1 - Major,
+Service Request Incident,eserve,3 - Medium,
+Service Request Incident,eserve,4 - Low,351.0708950617284
+Service Request Incident,eserve,2 - High,
+Service Request Incident,eserve,1 - Major,
+Service Request Incident,itsm,3 - Medium,209.59786231884058
+Service Request Incident,itsm,4 - Low,
+Service Request Incident,itsm,2 - High,
+Service Request Incident,itsm,1 - Major,
+Service Request Incident,replication,3 - Medium,
+Service Request Incident,replication,4 - Low,650.4605555555555
+Service Request Incident,replication,2 - High,30.525858585858586
+Service Request Incident,replication,1 - Major,
+Service Request Incident,jsnd,3 - Medium,272.06927083333335
+Service Request Incident,jsnd,4 - Low,
+Service Request Incident,jsnd,2 - High,
+Service Request Incident,jsnd,1 - Major,
+Service Request Incident,unidentified,3 - Medium,102.89124715804913
+Service Request Incident,unidentified,4 - Low,66.6143032032527
+Service Request Incident,unidentified,2 - High,16.469059476525103
+Service Request Incident,unidentified,1 - Major,21.369305555555556
+Cloud Maintenance Incident,Amex,3 - Medium,
+Cloud Maintenance Incident,Amex,4 - Low,
+Cloud Maintenance Incident,Amex,2 - High,5.349814814814814
+Cloud Maintenance Incident,Amex,1 - Major,
+DB Incident,AMEX,3 - Medium,88.726875
+DB Incident,AMEX,4 - Low,
+DB Incident,AMEX,2 - High,6.274259259259259
+DB Incident,AMEX,1 - Major,
+DB Incident,DatamartMetrics,3 - Medium,
+DB Incident,DatamartMetrics,4 - Low,42.778888888888886
+DB Incident,DatamartMetrics,2 - High,
+DB Incident,DatamartMetrics,1 - Major,
+DB Incident,FHL,3 - Medium,81.07138888888889
+DB Incident,FHL,4 - Low,
+DB Incident,FHL,2 - High,
+DB Incident,FHL,1 - Major,
+DB Incident,Rubrik Backup Service,3 - Medium,
+DB Incident,Rubrik Backup Service,4 - Low,144.90777777777777
+DB Incident,Rubrik Backup Service,2 - High,
+DB Incident,Rubrik Backup Service,1 - Major,
+DB Incident,Snow Inventory Application,3 - Medium,827.6719444444444
+DB Incident,Snow Inventory Application,4 - Low,
+DB Incident,Snow Inventory Application,2 - High,27.16861111111111
+DB Incident,Snow Inventory Application,1 - Major,
+DB Incident,SSIS,3 - Medium,524.8061111111111
+DB Incident,SSIS,4 - Low,
+DB Incident,SSIS,2 - High,
+DB Incident,SSIS,1 - Major,
+DB Incident,TorchMark,3 - Medium,3.4988888888888887
+DB Incident,TorchMark,4 - Low,
+DB Incident,TorchMark,2 - High,
+DB Incident,TorchMark,1 - Major,
+DB Incident,Unidentified,3 - Medium,313.8150694444444
+DB Incident,Unidentified,4 - Low,127.08303362573099
+DB Incident,Unidentified,2 - High,60.256458333333335
+DB Incident,Unidentified,1 - Major,
+DB Incident,Verodin Endpoint Service,3 - Medium,10.09037037037037
+DB Incident,Verodin Endpoint Service,4 - Low,
+DB Incident,Verodin Endpoint Service,2 - High,
+DB Incident,Verodin Endpoint Service,1 - Major,
+DB Incident,Windows Service WMI,3 - Medium,
+DB Incident,Windows Service WMI,4 - Low,
+DB Incident,Windows Service WMI,2 - High,13.499666666666668
+DB Incident,Windows Service WMI,1 - Major,
+DBA Incident,DatamartMetrics,3 - Medium,106.49027777777778
+DBA Incident,DatamartMetrics,4 - Low,114.08177777777779
+DBA Incident,DatamartMetrics,2 - High,65.01518518518519
+DBA Incident,DatamartMetrics,1 - Major,
+DBA Incident,MKHSP Server,3 - Medium,
+DBA Incident,MKHSP Server,4 - Low,287.7427777777778
+DBA Incident,MKHSP Server,2 - High,
+DBA Incident,MKHSP Server,1 - Major,
+DBA Incident,Quest Change Auditor Agent,3 - Medium,
+DBA Incident,Quest Change Auditor Agent,4 - Low,84.81166666666667
+DBA Incident,Quest Change Auditor Agent,2 - High,
+DBA Incident,Quest Change Auditor Agent,1 - Major,
+DBA Incident,Rubrik Backup Service,3 - Medium,110.02527777777777
+DBA Incident,Rubrik Backup Service,4 - Low,39.55
+DBA Incident,Rubrik Backup Service,2 - High,
+DBA Incident,Rubrik Backup Service,1 - Major,
+DBA Incident,Snow Inventory Application,3 - Medium,
+DBA Incident,Snow Inventory Application,4 - Low,177.6855753968254
+DBA Incident,Snow Inventory Application,2 - High,
+DBA Incident,Snow Inventory Application,1 - Major,
+DBA Incident,SQLSafe OLR Service,3 - Medium,
+DBA Incident,SQLSafe OLR Service,4 - Low,18.73513888888889
+DBA Incident,SQLSafe OLR Service,2 - High,
+DBA Incident,SQLSafe OLR Service,1 - Major,
+DBA Incident,SSIS,3 - Medium,
+DBA Incident,SSIS,4 - Low,0.16472222222222221
+DBA Incident,SSIS,2 - High,
+DBA Incident,SSIS,1 - Major,
+DBA Incident,TorchMark,3 - Medium,
+DBA Incident,TorchMark,4 - Low,24.83972222222222
+DBA Incident,TorchMark,2 - High,29.28388888888889
+DBA Incident,TorchMark,1 - Major,
+DBA Incident,Unidentified,3 - Medium,50.297222222222224
+DBA Incident,Unidentified,4 - Low,80.42499206349207
+DBA Incident,Unidentified,2 - High,100.320625
+DBA Incident,Unidentified,1 - Major,
+DBA Incident,Verodin Endpoint Service,3 - Medium,
+DBA Incident,Verodin Endpoint Service,4 - Low,11.319074074074074
+DBA Incident,Verodin Endpoint Service,2 - High,8.344166666666666
+DBA Incident,Verodin Endpoint Service,1 - Major,
+DBA Incident,Windows CPU WMI,3 - Medium,
+DBA Incident,Windows CPU WMI,4 - Low,311.6927777777778
+DBA Incident,Windows CPU WMI,2 - High,
+DBA Incident,Windows CPU WMI,1 - Major,
+Network Incident,,3 - Medium,
+Network Incident,,4 - Low,
+Network Incident,,2 - High,
+Network Incident,,1 - Major,
+SQL Maintainence Incident,DatamartMetrics,3 - Medium,62.83185185185185
+SQL Maintainence Incident,DatamartMetrics,4 - Low,
+SQL Maintainence Incident,DatamartMetrics,2 - High,
+SQL Maintainence Incident,DatamartMetrics,1 - Major,
+SQL Maintainence Incident,Quest Change Auditor Agent,3 - Medium,3.7395833333333335
+SQL Maintainence Incident,Quest Change Auditor Agent,4 - Low,
+SQL Maintainence Incident,Quest Change Auditor Agent,2 - High,
+SQL Maintainence Incident,Quest Change Auditor Agent,1 - Major,
+SQL Maintainence Incident,Rubrik Backup Service,3 - Medium,12.441493055555556
+SQL Maintainence Incident,Rubrik Backup Service,4 - Low,
+SQL Maintainence Incident,Rubrik Backup Service,2 - High,
+SQL Maintainence Incident,Rubrik Backup Service,1 - Major,
+SQL Maintainence Incident,Server Access Issue,3 - Medium,77.0338888888889
+SQL Maintainence Incident,Server Access Issue,4 - Low,
+SQL Maintainence Incident,Server Access Issue,2 - High,
+SQL Maintainence Incident,Server Access Issue,1 - Major,
+SQL Maintainence Incident,Snow Inventory Application,3 - Medium,12.363125
+SQL Maintainence Incident,Snow Inventory Application,4 - Low,
+SQL Maintainence Incident,Snow Inventory Application,2 - High,
+SQL Maintainence Incident,Snow Inventory Application,1 - Major,
+SQL Maintainence Incident,VSphere VM Backup Failure,3 - Medium,9.803641975308642
+SQL Maintainence Incident,VSphere VM Backup Failure,4 - Low,0.7691666666666667
+SQL Maintainence Incident,VSphere VM Backup Failure,2 - High,
+SQL Maintainence Incident,VSphere VM Backup Failure,1 - Major,
+SQL Maintainence Incident,Windows Service WMI,3 - Medium,7.088333333333333
+SQL Maintainence Incident,Windows Service WMI,4 - Low,
+SQL Maintainence Incident,Windows Service WMI,2 - High,
+SQL Maintainence Incident,Windows Service WMI,1 - Major,
