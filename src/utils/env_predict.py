@@ -23,4 +23,4 @@ def env_predict(description):
     #env sub group predict
     predicted_subgroup=env_subgroup_predict(pre_processed_text_subgroup)
 
-    return predicted_incident_type.tolist(),predicted_subgroup.tolist()
+    return predicted_incident_type,predicted_subgroup

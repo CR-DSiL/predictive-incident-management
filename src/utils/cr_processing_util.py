@@ -3,13 +3,15 @@
 import pandas as pd
 import numpy as np
 import re
+import pyodbc
+from requests import head
 
 import yaml
 import os
 
 #data vectorization
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.feature_extraction.text import CountVectorizer
+
 
 #model loading
 import pickle
@@ -36,6 +38,9 @@ with open('config/config.yaml') as file:
 #Get current working dir
 cwd_path=os.getcwd()
 
+# get the db config
+db_config=config['db_config']
+
 # Different required paths
 cr_stop_words_file=os.path.join(cwd_path,config['models_dir'],config['cr_stop_words_file'])
 cr_incident_type_features_names_file=os.path.join(cwd_path,config['models_dir'],config['cr_incident_type_features_names'])
@@ -46,7 +51,6 @@ cr_incident_types_dict=config['cr_incident_types_dict']
 cr_capcity_subgroup_prediction_model=os.path.join(cwd_path,config['models_dir'],config['cr_capcity_subgroup_prediction_model'])
 cr_network_subgroup_prediction_model=os.path.join(cwd_path,config['models_dir'],config['cr_network_subgroup_prediction_model'])
 cr_cloud_subgroup_prediction_model=os.path.join(cwd_path,config['models_dir'],config['cr_cloud_subgroup_prediction_model'])
-cr_dataset_file_path=os.path.join(cwd_path,config['data_dir'],config['cr_dataset_file'])
 similar_incident_count=config['similar_incident_count']
 
 
@@ -183,27 +187,62 @@ def predict_cr_subgroup_incident_type(Text,Impact,predicted_incident_type):
 
 # Function to return similar 
 def cr_similar_incidents(predicted_incident_type,predicted_subgroup_incident_type):
-    data=pd.read_csv(cr_dataset_file_path)
-    data=data[['Description','Incidents','Subgroups']]
-    similar_incidents=data[(data['Incidents']== predicted_incident_type) & (data['Subgroups']== predicted_subgroup_incident_type)]
-    pd.options.display.max_colwidth = 120
-    # similar_incident= similar_incidents['Description'].head(min(similar_incident_count,len(similar_incidents)))
-    similar_incident= similar_incidents['Description'].tolist()
-    # similar_incident.reset_index(drop=True,inplace=True)
-    return similar_incident
+
+    #connecting the database 
+    conn = pyodbc.connect(**db_config)
+    cursor=conn.cursor()
+
+    # fetching incident data for Is_Change_Request
+    df=pd.read_sql_query (''' SELECT Impact,Description,Incident_Type,Subgroups,Is_Change_Request FROM tbl_incidents FULL OUTER JOIN tbl_incidents_predictions
+                            ON tbl_incidents.Id = tbl_incidents_predictions.Incident_Id;
+                               ''', conn)
+    data=df[df['Is_Change_Request']==True]
+
+    data=data[['Description','Incident_Type','Subgroups']]
+
+    if predicted_incident_type !='Service Request Incident' :
+        similar_incidents=data[(data['Incident_Type']== predicted_incident_type) & (data['Subgroups']== predicted_subgroup_incident_type)]
+        pd.options.display.max_colwidth = 100
+        similar_incidents['Description'] = similar_incidents['Description'].apply(lambda x: x[:250])
+        similar_incident= similar_incidents['Description'].tolist()
+        
+        
+    else :
+        similar_incident=["Data Unavailable.."]
+        
+
+    return  list(set(similar_incident))
+
+
+# function to length of similar incidents
+def pervious_incident_count(cr_similar_incidents):
+    if cr_similar_incidents == ["Data Unavailable.."]:
+        incident_count= int(0)
+    else:
+        incident_count=len(cr_similar_incidents)
+
+    return incident_count
 
 # Function to display the potential problem on change request data
 def cr_subgroup_component(predicted_incident_type,predicted_subgroup_incident_type,similar_incident):
     
     list_subgroup_having_component=['MKTM Service','USOSVC Issues','FHL Service','AWTM Service','Amex','MKHS Service']
     server_name_list = []
+    
     if predicted_subgroup_incident_type  in list_subgroup_having_component :
         
-        
-    
         #to extract the alphanumberic value only
         for i in similar_incident:
             server_name=re.findall(r'\w+\d|\w+-\w+\d|fhl-\w+',i)[0]
             server_name_list.append(server_name)
-    return server_name_list    
+        Server_Name=list(set(server_name_list))
+        
+
+    else:
+        Server_Name=["Data Unavailable.."]
+      
+
+    return Server_Name
+
+
     

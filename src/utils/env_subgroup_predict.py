@@ -31,7 +31,9 @@ def env_subgroup_predict(text):
     
     # loading model & predicting the incidents type
     env_subgroup_model =  pickle.load(open(env_subgroup_prediction_model,'rb'))
-    predicted_subgroup=env_subgroup_model.predict(data)
-    #data['Incidents']=predicted_subgroup
+    predicted_subgroups=env_subgroup_model.predict(data)
+    predicted_subgroup=''.join(predicted_subgroups)
+
+    #data['Subgroups']=predicted_subgroup
     
     return predicted_subgroup

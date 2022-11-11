@@ -1,2 +1,2 @@
-mailbox.gtd@gmail.com
-wthaozioyeikhnsd
+$MAIL_SERVER_ID
+$MAIL_SERVER_PASSWORD

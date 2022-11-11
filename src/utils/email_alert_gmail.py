@@ -27,17 +27,18 @@ def read_creden():
 
 
 
-def mail_gmail_send(receiver,predicted_incident,subgroup,resolution_time):
+def mail_gmail_send(receiver,predicted_incident,subgroup,resolution_time,incident_no):
     # define port
     port= 465
 
     #get the sender details
     sender,password= read_creden()
+    incident_no=str(incident_no)
 
     
     subject='Resolution time'
     # body='it will take time to resolve the issuse around 2 hrs'
-    body='''Hello, \n\n The following are details :\n \tPredicted Incident Category : {predicted_incident} \n \tPredicted Incident Sub-Category : {subgroup} \n \tExpected Resolution Time (in hr) : {resolution_time} \n\n\n Thanks,\n Support Team'''.format(predicted_incident=predicted_incident,subgroup=subgroup,resolution_time=resolution_time)
+    body='''Hello, \n\n The following are details :\n \tIncident Number : {incident_no}\n \tPredicted Incident Category : {predicted_incident} \n \tPredicted Incident Sub-Category : {subgroup} \n \tExpected Resolution Time (in hr) : {resolution_time} \n\n\n Thanks,\n Support Team'''.format(incident_no=incident_no,predicted_incident=predicted_incident,subgroup=subgroup,resolution_time=resolution_time)
 
     message = f'Subject:{subject}\n\n{body}'
 

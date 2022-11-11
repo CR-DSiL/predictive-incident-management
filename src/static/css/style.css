@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.header {
+    background-color: #fff;
+    color: #253F78;
+    padding: 10px 16px;
+    max-height: 55px;
+    position: sticky;
+    top: 0;
+    
+}
+
+
+
+
+h1 {
+    padding-top: 10px;
+    margin-left: 1%;
+    font-size: 22px;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+.content {
+    padding: 16px;
+    background-color: rgba(var(--palette-neutral-2,248, 248, 248),1);
+  
+    width: 100%;
+    float: right;
+    padding-bottom: 5%;
+    min-height: 100%;
+    
+}
+ 
+
+.dashboard {
+
+    background-color: rgba(var(--palette-neutral-2,248, 248, 248),1);
+    
+}
+
+
+/* footer styling with fixed */
+footer {
+    background-color: #04101B;
+    padding: 10px 8px;
+    color:#FFF;
+    font-size: 12px;
+    position:absolute;
+    bottom:0;
+}
+
+
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+
+
+  .container p{
+    text-align: left;
+    font-size: 18px;
+    color:#1d417c;   
+    margin-top: 1%;
+    font-weight: bold;
+}
+
+label {
+    font-size: 16px;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+    transition: transform .5s;
+   
+}
+.card p {
+    font-size: small;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.flexRow {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+}
+
+.row img {
+    height: 30px;
+    
+}
+
+.imgclass{
+    min-height: 250px;
+    min-width: 200px;
+}
+
+
+.fa-home:before {
+    content: "\f015";
+    color: #253F78;
+    font-size: 30px;
+    margin-left: 3%;
+}
+
+
+
+h3 {
+    text-align: left;
+    color: #1d417c;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: .5%;
+}
+
+p{
+    font-size: 16px;
+    color:#1d417c;
+}
+
+table {
+    border: 1px solid black;
+}

@@ -32,10 +32,12 @@ def cr_prediction(description,Impact):
     # print(similar_incident)
 
     # Number of similar incidents occured in past
-    similar_incident_count=len(similar_incident)
+    similar_incident_count=pervious_incident_count(similar_incident)
 
     # Get components 
     server_name_list=cr_subgroup_component(cr_predicted_incident,cr_subgroup,similar_incident)
     #print(server_name_list)
+
+    
 
     return cr_predicted_incident,cr_subgroup,similar_incident,similar_incident_count,server_name_list

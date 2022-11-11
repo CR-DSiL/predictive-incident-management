@@ -15,17 +15,20 @@ def incident_resolution_time(description,Impact):
     is_other=False
 
     is_change,is_env,is_other=env_or_change_type(description)
-    #print(is_change,is_env,is_other)
+    
 
     # get the incident types
     if is_change:
         predicted_incident_type,predicted_subgroup,similar_incident,similar_incident_count,server_name_list=cr_prediction(description,Impact)
+        predicted_incident_type,predicted_subgroup,is_change,is_env,is_other = predicted_incident_type,predicted_subgroup,is_change,is_env,is_other
     elif is_env:
         predicted_incident_type,predicted_subgroup=env_predict(description)
+        predicted_incident_type,predicted_subgroup,is_change,is_env,is_other = predicted_incident_type,predicted_subgroup,is_change,is_env,is_other
     elif is_other:
         predicted_incident_type,predicted_subgroup=other_predict(description,Impact)
+        predicted_incident_type,predicted_subgroup,is_change,is_env,is_other = predicted_incident_type,predicted_subgroup,is_change,is_env,is_other
 
 
     resolution_time=get_resolution_time(predicted_incident_type,predicted_subgroup,Impact)    
     
-    return predicted_incident_type,predicted_subgroup,resolution_time
+    return predicted_incident_type,predicted_subgroup,is_change,is_env,is_other,resolution_time

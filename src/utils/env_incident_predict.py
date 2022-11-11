@@ -33,7 +33,8 @@ def env_incident_predict(Text):
     
     # loading model & predicting the incidents type
     env_incident_model =  pickle.load(open(env_incident_prediction_model,'rb'))
-    predicted_incident_type=env_incident_model.predict(data)
-    data['Incidents']=predicted_incident_type
+    predicted_incident=env_incident_model.predict(data)
+    predicted_incident_type=''.join(predicted_incident)
+    #data['Incidents']=predicted_incident_type
     
     return predicted_incident_type
