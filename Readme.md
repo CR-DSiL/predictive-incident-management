@@ -5,14 +5,8 @@
 
 **Insighful dashboards to visualize the model output**
 
-**CHANGE FAILURES**
-
 <img width="1195" alt="image" src="https://user-images.githubusercontent.com/111766830/201275406-6417e97d-3ae0-4cb1-b993-68ed2f0c9314.png">
 
-**INCIDENTS ON ENVIRONMENTAL CHANGE**
-
 <img width="1201" alt="image" src="https://user-images.githubusercontent.com/111766830/201275456-f1c2e7a5-7e60-4357-96d8-2bb2e57b7703.png">
-
-**INCIDENTS RESOLUTION TIME**
 
 <img width="1198" alt="image" src="https://user-images.githubusercontent.com/111766830/201275490-9d547f5f-385a-4108-b58f-8503689751c1.png">
