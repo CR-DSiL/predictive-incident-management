@@ -1,4 +1,4 @@
-use PredicitveIncidentManagement;
+use PredictiveIncidentManagement;
 CREATE TABLE [tbl_change_request] (
 	Id int NOT NULL IDENTITY(1,1),
 	Date datetime NOT NULL,
