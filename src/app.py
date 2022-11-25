@@ -26,18 +26,18 @@ db_config=config['db_config']
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/pim/')
 def home():
     return render_template('Predictive Incident Management.html')
 
 
-@app.route('/dashboard')
+@app.route('/pim/dashboard')
 def dashboard():
     return render_template('dashboard.html')
 
 
 ''' function return change potential risk prediction when the change request are raised'''
-@app.route('/change_request', methods=['POST'])
+@app.route('/pim/change_request', methods=['POST'])
 def change_request():
     # Data from postman
     if request.method == 'POST':
@@ -98,7 +98,7 @@ def change_request():
   
 
 ''' function return environmental prediction when the chnage request are related to environment '''
-@app.route('/env_change', methods=['POST'])
+@app.route('/pim/env_change', methods=['POST'])
 def env_change():
     # Data from postman
     description=str(request.form.get('description'))
@@ -140,7 +140,7 @@ def env_change():
 
 
 ''' function return the incident resolution prediction for incidents '''
-@app.route('/azure_webhook', methods=['POST'])
+@app.route('/pim/azure_webhook', methods=['POST'])
 def azure_webhook():
      if request.method =='POST':
         
